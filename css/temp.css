@@ -1,0 +1,39 @@
+p {
+	margin: 0;
+}
+
+.hobby {
+	padding: 0px 10px;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+}
+
+.introduction p {
+	font-size: 60px;
+	margin: 0 auto;
+}
+
+.name {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 400;
+	font-size: 160px;
+	color: #AAA;
+}
+
+.content {
+	font-size: 28px;
+}
+
+.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 500px) {
+	.introduction p {
+		font-size: 40px;
+	}
+
+	.content {
+		font-size: 20px;
+	}
+}
