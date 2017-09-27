@@ -20,7 +20,7 @@ p {
 	color: #AAA;
 }
 
-.content {
+.content, .email {
 	font-size: 28px;
 }
 
@@ -33,7 +33,7 @@ p {
 		font-size: 40px;
 	}
 
-	.content {
+	.content , .email{
 		font-size: 20px;
 	}
 }
